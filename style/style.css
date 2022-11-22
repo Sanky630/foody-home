@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header{
+    display: flex;
+    
+}
+header nav a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    padding-left: 720px;
+    padding-top: 10px;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+    /* display: inline */
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    /* padding-bottom: 1px; */
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 15px;
+    
+}
+
+.logo{
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 67px;
+    color: orange;
+    padding-left: 30px;
+    padding-top: 2x;
+    
+}
+
+.socal-media{
+    display: flex;
+    padding-left: 30px;
+    padding-top:42px;
+    
+}
+.social-btn{
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background-color: aliceblue;
+    box-shadow: 0px 3px 2px 2px rgba(0, 0, 0, 0.244);
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+.social-btn i{
+    color: orange;
+}
+.slogan{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 71px;
+    padding-top: 100px;
+    padding-left: 40px;
+
+}
+.l2{
+    padding-top: 4px;
+    color: orange;
+}
+
+.ordera{
+    padding-top: 50px;
+    padding-left: 40px;
+    display: flex;
+}
+.ordera a input{
+    height: 60px;
+    width: 280px;
+    border-radius: 50px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: orange;
+    color: white;
+    /* font-size: x-large; */
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+.ordera a input:hover{
+    background-color: rgb(196, 127, 0);
+    cursor: pointer;
+}
+
+
+
+.handles{
+    padding-top: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.burger img{
+    width: 500px;
+    position: absolute;
+    transform: translate(945px,-467px);
+}
+.social-btn:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
